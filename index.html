@@ -3,25 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PCS @ Berkeley</title>
+    <style>
+        body, main {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0
+        }
+    </style>
   </head>
   <body>
-    <h1>Political Computer Science @ Berkeley</h1>
-    <p>
-      Unfortunately, the OCF (Berkeley web hosting services) is giving us some
-      difficulty. We hope to have our full (and nicely designed) site up and
-      running very soon. For now, please appreciate this web page, or feel free
-      to visit
-      <a href="https://pcs-svelte.vercel.app/about">our vercel draft</a> which
-      is an unofficial draft of our website and does not represent the OCF or
-      Berkeley.
-    </p>
-    <a href="https://www.ocf.berkeley.edu">
-      <img
-        src="http://www.ocf.berkeley.edu/hosting-logos/ocfbadge_blue8.png"
-        alt="Hosted by the OCF"
-        style="border: 0"
-      />
-    </a>
+    <iframe
+      src="http://pcsberkeley.org"
+      class="iframe"
+      frameborder="0"
+    ></iframe>
   </body>
 </html>
