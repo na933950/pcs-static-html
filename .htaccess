@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/proxy/
+RewriteRule ^(.*)$ /proxy/$1 [P,L]
